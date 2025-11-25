@@ -7,7 +7,7 @@ Este projeto demonstra a manipulação básica de arquivos usando a biblioteca p
 
 ## 🛠 Funcionalidades
 
-O programa possui um **menu interativo** que permite ao usuário:
+O programa possui um **menu interativo** que permite ao utilizador:
 
 1. **Criar um arquivo de texto**  
    - Se o arquivo já existir, o programa informa que ele já existe.
@@ -22,7 +22,7 @@ O programa possui um **menu interativo** que permite ao usuário:
 ## 📂 Estrutura do Código
 
 - **`main()`**: Inicializa o programa e chama o menu principal.
-- **`menu()`**: Exibe o menu e gerencia as opções escolhidas pelo usuário.
+- **`menu()`**: Exibe o menu e gerencia as opções escolhidas pelo utilizador.
 - **`criar()`**: Cria um arquivo de texto caso ele não exista.
 - **`adicionar()`**: Adiciona conteúdo ao arquivo existente.
 - **`ler()`**: Lê e exibe o conteúdo do arquivo.
@@ -41,6 +41,6 @@ O programa possui um **menu interativo** que permite ao usuário:
 ## 📌 Como executar
 
 1. Compile o código usando um compilador C++:
+
 ```bash
 g++ -o myGestorFicheiros main.cpp
-
